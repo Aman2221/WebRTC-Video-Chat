@@ -1,5 +1,10 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  background: url("https://tms-outsource.com/blog/wp-content/uploads/2023/05/webrtc.jpg") no-repeat;
+  background-size:cover ;
 }
 
 .App-logo {
