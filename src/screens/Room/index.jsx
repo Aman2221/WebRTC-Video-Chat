@@ -23,7 +23,7 @@ const Room = () => {
     setRemoteSocId(socket_id)
   },[usersEmail,setUsersEmail])
 
-  // When other user joins he can't directly join first the organizer have to allow him to join
+  // When other user joins he can not directly join first the organizer have to allow him to join
   const handleCallUser = useCallback(async () => {
     setShoAllowBtn(false);
     const stream = await navigator.mediaDevices.getUserMedia({
